@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #f1f5f8;
+	color: #222;
+	font-family: sans-serif;
+}
+
+.container{
+	width: 90vw;
+	max-width: 1170px;
+	margin: 5rem auto;
+	display: grid;
+	grid-gap: 2rem;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.book{
+	background: #fff;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+}
+
+.book:hover{
+	background: #f1f5f8;
+}
+
+.book h4:hover, p:hover{
+	color: red;
+}
+
+#price{
+	color: red;
+}
+
+a:link{
+	text-decoration: none;
+	color: #202090;
+
+}
+
+header, footer{
+	background: #000;
+	color: #fff;
+	padding: 2rem;
+	max-height: 5rem;
+
+}
+
+li{
+	color: #fff;
+	list-style: none;
+	display: inline-grid;
+	margin-right: 1rem;
+	font-size: 22px;
+
+}
+
+li:hover{
+	color: #222;
+	margin: 0;
+
+}
+
+.menu{
+	display: inline-grid;
+
+}
+
+
+.menu:hover{
+	background: #f1f5f8;
+	
+
+}
